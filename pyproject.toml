@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "aioredis_semaphore"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10"
+python = ">=3.9,<4.0"
 redis = "^5.0.1"
 
 [build-system]
